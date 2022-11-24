@@ -1,0 +1,123 @@
+/* CSS Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+:root {
+    --black: #130e0e;
+    --aqua: #00ffff;
+    --white: #c3cdcc;
+    --dark-aqua: #23d6d6;
+    --orange: rgba(232, 156, 50, 0.5);
+}
+
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: var(--black);
+    line-height: 1.5;
+    color: var(--white);
+    color: #23d6d6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0.4rem;
+    margin-bottom: 0.7rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+header,
+main,
+footer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header,
+footer {
+    margin: 0 auto;
+}
+
+/* Header Section Styles */
+header {
+    margin: 0 auto;
+    text-align: center;
+}
+header .title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    color: var(--aqua);
+    margin: 3rem auto 2rem auto;
+}
+
+/* Flex Content Styling */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: flex-start;
+    margin: 3rem auto 3rem auto;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem;
+    padding: 1rem;
+    color: var(--aqua);
+    width: 30%; 
+    border: 2px dashed var(--white);
+}
+.card-heading {
+    border: 2px solid var(--white);
+    border-radius: 0.5rem;
+    text-align: center;
+    position: relative;
+    margin: -2rem 1rem 2rem;
+    background-color: var(--black);
+    padding: 0.5rem;
+    font-weight: bolder;
+}
+.code {
+    width: 90%;  
+    margin: 1rem;
+    background-image: linear-gradient(0deg, var(--dark-aqua), #1e1e1f);
+    border-radius: 0.5rem;
+    
+}
+.card pre {
+    white-space: pre-wrap;
+    overflow: auto;
+    padding: 2rem;
+    color: var(--white);
+    user-select: all; 
+}
+
+
+
+/* Footer Section Styles */
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
