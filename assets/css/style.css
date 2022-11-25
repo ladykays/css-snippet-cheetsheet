@@ -130,8 +130,8 @@ footer {
 }
 
 /* Media Queries*/
-/* For extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* For small devices (phone and portrait tablet, 768px and down) */
+@media only screen and (max-width: 768px) {
     .card {
         width:  100%;
         margin-bottom: 3rem;
@@ -143,10 +143,10 @@ footer {
         margin: -3rem 0 2rem;
     }
 }
-/* For small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* For medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
     .card {
-        width: 100%;
+        width:  45%;
         margin-bottom: 3rem;
         margin-left: auto;
         margin-right: auto;
@@ -155,27 +155,21 @@ footer {
         width: 100%;
         margin: -3rem auto 2rem auto;
     }
-    
 }
-/* For medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* For large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
     .card {
-        flex: 45%;
-        max-width: 45%;
+        width:  30%;
+        margin-bottom: 3rem;
+        margin-left: auto;
+        margin-right: auto;
     }
     .card-heading {
         width: 100%;
         margin: -3rem auto 2rem auto;
     }
 }
-/* For large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    
-}
-/* For extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    
-}
+
 
 
 
